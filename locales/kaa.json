@@ -20,24 +20,18 @@
   },
   "navbar": {
     "features": "Múmkinshilikler",
-    "pricing": "Bahalar",
-    "howItWorks": "Bul qalay isleydi"
-  },
-  "sidebar": {
-    "dashboard": "Basqarıw paneli",
-    "leads": "Potencial klientler",
-    "settings": "Sazlawlar",
-    "account": "Esap"
-  },
-  "dashboard": {
-    "title": "Basqarıw paneli",
-    "totalMessages": "Jámi xabarlar",
-    "totalLeads": "Jámi klientler",
     "conversionRate": "Konversiya kórsetkishi",
     "yourAccounts": "Sizdiń esaplarıńız",
     "addAccount": "Esap qosıw",
     "messages": "xabarlar",
     "activeStatus": "Aktiv"
+  },
+    "sidebar": {
+    "dashboard": "Basqarıw paneli",
+    "leads": "Lidlar",
+    "settings": "Sazlamalar",
+    "account": "Akkaunt",
+    "insights": "Insaytlar"
   },
   "leads": {
     "title": "Potencial klientler",

@@ -27,7 +27,8 @@
     "dashboard": "Панель управления",
     "leads": "Лиды",
     "settings": "Настройки",
-    "account": "Аккаунт"
+    "account": "Аккаунт",
+    "insights": "Инсайты"
   },
   "dashboard": {
     "title": "Панель управления",

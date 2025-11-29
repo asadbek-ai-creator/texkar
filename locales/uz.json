@@ -27,7 +27,8 @@
     "dashboard": "Boshqaruv paneli",
     "leads": "Lidlar",
     "settings": "Sozlamalar",
-    "account": "Hisob"
+    "account": "Hisob",
+    "insights": "Tahlillar"
   },
   "dashboard": {
     "title": "Boshqaruv paneli",

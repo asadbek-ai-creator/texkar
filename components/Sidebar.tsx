@@ -86,7 +86,7 @@ export default function Sidebar() {
           className={getLinkClassName('/dashboard/insights')}
         >
           <TrendingUp className="h-5 w-5" />
-          <span className="font-medium">Insights</span>
+          <span className="font-medium">{t('sidebar.insights')}</span>
         </Link>
 
         <Link

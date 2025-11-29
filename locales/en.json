@@ -27,7 +27,8 @@
     "dashboard": "Dashboard",
     "leads": "Leads",
     "settings": "Settings",
-    "account": "Account"
+    "account": "Account",
+    "insights": "Insights"
   },
   "dashboard": {
     "title": "Dashboard",

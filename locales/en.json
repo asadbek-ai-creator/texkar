@@ -298,5 +298,30 @@
     "title": "Your Bot is Ready to Learn!",
     "description": "Configure your bot settings and start automating your DM responses",
     "button": "Go to Bot Settings"
+  },
+  "analytics": {
+    "dataFor": "Data for",
+    "autoRefresh": "Auto-refreshes every 30 seconds",
+    "error": "Error",
+    "loading": "Loading analytics...",
+    "conversationsToday": "Conversations Today",
+    "conversationsTodayDesc": "Total conversations started today",
+    "leadsToday": "Leads Today",
+    "leadsTodayDesc": "New leads generated today",
+    "activeConversations": "Active Conversations",
+    "activeConversationsDesc": "Currently ongoing conversations",
+    "conversionRate": "Conversion Rate",
+    "conversionRateDesc": "Conversations to leads ratio",
+    "avgLeadScore": "Average Lead Score",
+    "avgLeadScoreDesc": "Quality score of today's leads",
+    "messagesToday": "Messages Today",
+    "messagesTodayDesc": "Total messages exchanged",
+    "todaysSummary": "Today's Summary",
+    "conversations": "Conversations",
+    "leads": "Leads",
+    "conversion": "Conversion",
+    "leadQuality": "Lead Quality",
+    "messageVolume": "Message Volume (Last 7 Days)",
+    "courseDistribution": "Course Distribution"
   }
 }

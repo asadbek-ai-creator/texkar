@@ -77,9 +77,9 @@ export default function SetupPage() {
         {/* Header */}
         <div className="mb-8 text-center pt-8">
           <img
-            src="/dialogic-logo.png"
+            src="/logo.png"
             alt="Dialogic"
-            className="h-16 w-16 rounded-lg mx-auto mb-4"
+            className="h-16 w-16 rounded-lg mx-auto mb-4 bg-blue-600 p-2"
           />
           <h1 className="text-3xl font-bold text-gray-900 mb-2">{t('setup.title')}</h1>
           <p className="text-gray-600">{t('setup.subtitle')}</p>

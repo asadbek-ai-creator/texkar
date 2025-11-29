@@ -74,12 +74,12 @@ export default function DashboardPage() {
         <div>
           <h1 className="text-3xl font-bold text-slate-800">{t('dashboard.title')}</h1>
           <p className="text-sm text-slate-600 mt-1">
-            {analyticsData ? `Data for ${new Date(analyticsData.date).toLocaleDateString()}` : 'Loading...'}
+            {analyticsData ? `${t('analytics.dataFor')} ${new Date(analyticsData.date).toLocaleDateString()}` : t('analytics.loading')}
           </p>
         </div>
         {!loading && (
           <div className="text-sm text-slate-500">
-            Auto-refreshes every 30 seconds
+            {t('analytics.autoRefresh')}
           </div>
         )}
       </div>
@@ -87,7 +87,7 @@ export default function DashboardPage() {
       {/* Error Message */}
       {error && (
         <div className="rounded-lg bg-red-50 border border-red-200 p-4 text-red-800">
-          <p className="font-semibold">Error</p>
+          <p className="font-semibold">{t('analytics.error')}</p>
           <p className="text-sm">{error}</p>
         </div>
       )}
@@ -96,7 +96,7 @@ export default function DashboardPage() {
       {loading ? (
         <div className="text-center py-12">
           <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-600 border-r-transparent"></div>
-          <p className="mt-4 text-slate-500">Loading analytics...</p>
+          <p className="mt-4 text-slate-500">{t('analytics.loading')}</p>
         </div>
       ) : analyticsData ? (
         <>
@@ -104,71 +104,71 @@ export default function DashboardPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Conversations Today */}
             <StatCard
-              title="Conversations Today"
+              title={t('analytics.conversationsToday')}
               value={analyticsData.conversations_today}
               icon={MessageSquare}
-              description="Total conversations started today"
+              description={t('analytics.conversationsTodayDesc')}
             />
 
             {/* Leads Today */}
             <StatCard
-              title="Leads Today"
+              title={t('analytics.leadsToday')}
               value={analyticsData.leads_today}
               icon={Users}
-              description="New leads generated today"
+              description={t('analytics.leadsTodayDesc')}
             />
 
             {/* Active Conversations */}
             <StatCard
-              title="Active Conversations"
+              title={t('analytics.activeConversations')}
               value={analyticsData.active_conversations}
               icon={Activity}
-              description="Currently ongoing conversations"
+              description={t('analytics.activeConversationsDesc')}
             />
 
             {/* Conversion Rate */}
             <StatCard
-              title="Conversion Rate"
+              title={t('analytics.conversionRate')}
               value={`${analyticsData.conversion_rate.toFixed(1)}%`}
               icon={TrendingUp}
-              description="Conversations to leads ratio"
+              description={t('analytics.conversionRateDesc')}
             />
 
             {/* Average Lead Score */}
             <StatCard
-              title="Average Lead Score"
+              title={t('analytics.avgLeadScore')}
               value={analyticsData.avg_lead_score.toFixed(1)}
               icon={Star}
-              description="Quality score of today's leads"
+              description={t('analytics.avgLeadScoreDesc')}
             />
 
             {/* Messages Today */}
             <StatCard
-              title="Messages Today"
+              title={t('analytics.messagesToday')}
               value={analyticsData.messages_today}
               icon={Mail}
-              description="Total messages exchanged"
+              description={t('analytics.messagesTodayDesc')}
             />
           </div>
 
           {/* Summary Card */}
           <div className="rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 p-6 text-white shadow-lg">
-            <h2 className="text-xl font-bold mb-4">Today's Summary</h2>
+            <h2 className="text-xl font-bold mb-4">{t('analytics.todaysSummary')}</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div>
-                <p className="text-blue-100 text-sm">Conversations</p>
+                <p className="text-blue-100 text-sm">{t('analytics.conversations')}</p>
                 <p className="text-3xl font-bold">{analyticsData.conversations_today}</p>
               </div>
               <div>
-                <p className="text-blue-100 text-sm">Leads</p>
+                <p className="text-blue-100 text-sm">{t('analytics.leads')}</p>
                 <p className="text-3xl font-bold">{analyticsData.leads_today}</p>
               </div>
               <div>
-                <p className="text-blue-100 text-sm">Conversion</p>
+                <p className="text-blue-100 text-sm">{t('analytics.conversion')}</p>
                 <p className="text-3xl font-bold">{analyticsData.conversion_rate.toFixed(1)}%</p>
               </div>
               <div>
-                <p className="text-blue-100 text-sm">Lead Quality</p>
+                <p className="text-blue-100 text-sm">{t('analytics.leadQuality')}</p>
                 <p className="text-3xl font-bold">{analyticsData.avg_lead_score.toFixed(0)}/100</p>
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function DashboardPage() {
       {/* Message Trends Chart */}
       {!loading && messagesData.length > 0 && (
         <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="mb-4 text-lg font-bold text-slate-800">Message Volume (Last 7 Days)</h2>
+          <h2 className="mb-4 text-lg font-bold text-slate-800">{t('analytics.messageVolume')}</h2>
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={messagesData}>
               <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
@@ -216,7 +216,7 @@ export default function DashboardPage() {
       {/* Course Distribution Pie Chart */}
       {!loading && coursesData.length > 0 && (
         <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
-          <h2 className="mb-4 text-lg font-bold text-slate-800">Course Distribution</h2>
+          <h2 className="mb-4 text-lg font-bold text-slate-800">{t('analytics.courseDistribution')}</h2>
           <ResponsiveContainer width="100%" height={350}>
             <PieChart>
               <Pie

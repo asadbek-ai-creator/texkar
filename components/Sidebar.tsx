@@ -58,9 +58,9 @@ export default function Sidebar() {
       <div className="border-b border-slate-700 px-6 py-6">
         <Link href="/" className="flex items-center gap-3">
           <img
-            src="/dialogic-logo.png"
+            src="/logo.png"
             alt="Dialogic"
-            className="h-8 w-8 rounded-lg"
+            className="h-8 w-8 rounded-lg bg-blue-600 p-1"
           />
           <span className="text-lg font-bold text-white">DIALOGIC</span>
         </Link>

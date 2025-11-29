@@ -298,5 +298,30 @@
     "title": "Ваш бот готов к обучению!",
     "description": "Настройте параметры бота и начните автоматизировать ответы в личных сообщениях",
     "button": "Перейти к настройкам бота"
+  },
+  "analytics": {
+    "dataFor": "Данные за",
+    "autoRefresh": "Автообновление каждые 30 секунд",
+    "error": "Ошибка",
+    "loading": "Загрузка аналитики...",
+    "conversationsToday": "Диалоги сегодня",
+    "conversationsTodayDesc": "Всего начато диалогов сегодня",
+    "leadsToday": "Лиды сегодня",
+    "leadsTodayDesc": "Новые лиды сегодня",
+    "activeConversations": "Активные диалоги",
+    "activeConversationsDesc": "Текущие активные диалоги",
+    "conversionRate": "Конверсия",
+    "conversionRateDesc": "Соотношение диалогов к лидам",
+    "avgLeadScore": "Средний балл лида",
+    "avgLeadScoreDesc": "Качество лидов сегодня",
+    "messagesToday": "Сообщения сегодня",
+    "messagesTodayDesc": "Всего сообщений",
+    "todaysSummary": "Сводка за сегодня",
+    "conversations": "Диалоги",
+    "leads": "Лиды",
+    "conversion": "Конверсия",
+    "leadQuality": "Качество лидов",
+    "messageVolume": "Объем сообщений (7 дней)",
+    "courseDistribution": "Распределение курсов"
   }
 }

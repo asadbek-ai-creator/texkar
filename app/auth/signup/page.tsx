@@ -133,9 +133,9 @@ export default function SignupPage() {
         <div className="text-center mb-8">
           <div className="flex justify-center mb-4">
             <img
-              src="/dialogic-logo.png"
+              src="/logo.png"
               alt="Dialogic"
-              className="h-12 w-12 rounded-lg"
+              className="h-12 w-12 rounded-lg bg-blue-600 p-2"
             />
           </div>
           <h1 className="text-3xl font-bold text-gray-900">{t('auth.signup.title')}</h1>
@@ -219,12 +219,12 @@ export default function SignupPage() {
                   <div
                     key={i}
                     className={`h-1 flex-1 rounded-full ${i < passwordStrength
-                        ? passwordStrength <= 1
-                          ? 'bg-red-500'
-                          : passwordStrength <= 2
-                            ? 'bg-yellow-500'
-                            : 'bg-green-500'
-                        : 'bg-gray-200'
+                      ? passwordStrength <= 1
+                        ? 'bg-red-500'
+                        : passwordStrength <= 2
+                          ? 'bg-yellow-500'
+                          : 'bg-green-500'
+                      : 'bg-gray-200'
                       }`}
                   />
                 ))}

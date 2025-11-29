@@ -298,5 +298,30 @@
     "title": "Botıńız úyreniwge tayar!",
     "description": "Bot sazlawların ornatıń hám DM juwapların avtomatlastırıwdı baslań",
     "button": "Bot sazlawlarına ótiw"
+  },
+  "analytics": {
+    "dataFor": "Maǵlıwmatlar:",
+    "autoRefresh": "Hár 30 sekundta jańalanadı",
+    "error": "Qátelik",
+    "loading": "Analitika júklenbekte...",
+    "conversationsToday": "Búgingi sáwbetler",
+    "conversationsTodayDesc": "Búgin baslanǵan jámi sáwbetler",
+    "leadsToday": "Búgingi lidlar",
+    "leadsTodayDesc": "Búgin jaratılǵan jańa lidlar",
+    "activeConversations": "Aktiv sáwbetler",
+    "activeConversationsDesc": "Házirgi waqıtta dawam etip atırǵan sáwbetler",
+    "conversionRate": "Konversiya dárejesi",
+    "conversionRateDesc": "Sáwbetlerdiń lidlarǵa qatnası",
+    "avgLeadScore": "Ortasha lid balı",
+    "avgLeadScoreDesc": "Búgingi lidlardıń sapa dárejesi",
+    "messagesToday": "Búgingi xabarlar",
+    "messagesTodayDesc": "Jámi almasılǵan xabarlar",
+    "todaysSummary": "Búgingi juwmaq",
+    "conversations": "Sáwbetler",
+    "leads": "Lidlar",
+    "conversion": "Konversiya",
+    "leadQuality": "Lid sapası",
+    "messageVolume": "Xabarlar kólemi (Sońǵı 7 kún)",
+    "courseDistribution": "Kurslar bólistiriliwi"
   }
 }

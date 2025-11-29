@@ -23,9 +23,9 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <img
-              src="/dialogic-logo.png"
+              src="/logo.png"
               alt="Dialogic"
-              className="h-10 w-10 rounded-lg"
+              className="h-10 w-10 rounded-lg bg-blue-600 p-1.5"
             />
             <span className="text-xl font-bold text-slate-900">DIALOGIC</span>
           </Link>

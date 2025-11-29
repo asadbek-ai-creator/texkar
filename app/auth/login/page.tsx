@@ -81,9 +81,9 @@ export default function LoginPage() {
         <div className="text-center mb-8">
           <div className="flex justify-center mb-4">
             <img
-              src="/dialogic-logo.png"
+              src="/logo.png"
               alt="Dialogic"
-              className="h-12 w-12 rounded-lg"
+              className="h-12 w-12 rounded-lg bg-blue-600 p-2"
             />
           </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">{t('auth.login.title')}</h1>

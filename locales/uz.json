@@ -298,5 +298,30 @@
     "title": "Botingiz o'rganishga tayyor!",
     "description": "Bot sozlamalarini sozlang va DM javoblarini avtomatlashtirishni boshlang",
     "button": "Bot sozlamalariga o'tish"
+  },
+  "analytics": {
+    "dataFor": "Ma'lumotlar:",
+    "autoRefresh": "Har 30 soniyada yangilanadi",
+    "error": "Xatolik",
+    "loading": "Analitika yuklanmoqda...",
+    "conversationsToday": "Bugungi suhbatlar",
+    "conversationsTodayDesc": "Bugun boshlangan jami suhbatlar",
+    "leadsToday": "Bugungi lidlar",
+    "leadsTodayDesc": "Bugun yaratilgan yangi lidlar",
+    "activeConversations": "Faol suhbatlar",
+    "activeConversationsDesc": "Hozirgi vaqtda davom etayotgan suhbatlar",
+    "conversionRate": "Konversiya darajasi",
+    "conversionRateDesc": "Suhbatlarning lidlarga nisbati",
+    "avgLeadScore": "O'rtacha lid bali",
+    "avgLeadScoreDesc": "Bugungi lidlarning sifat darajasi",
+    "messagesToday": "Bugungi xabarlar",
+    "messagesTodayDesc": "Jami almashilgan xabarlar",
+    "todaysSummary": "Bugungi xulosa",
+    "conversations": "Suhbatlar",
+    "leads": "Lidlar",
+    "conversion": "Konversiya",
+    "leadQuality": "Lid sifati",
+    "messageVolume": "Xabarlar hajmi (So'nggi 7 kun)",
+    "courseDistribution": "Kurslar taqsimoti"
   }
 }

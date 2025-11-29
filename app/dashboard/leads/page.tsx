@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import { Eye, Flame } from 'lucide-react'
 import { useLanguage } from '@/contexts/LanguageContext'
 
@@ -17,6 +18,7 @@ interface Lead {
 
 export default function LeadsPage() {
     const { t } = useLanguage()
+    const router = useRouter()
     const [leads, setLeads] = useState<Lead[]>([])
     const [loading, setLoading] = useState(true)
 
@@ -80,9 +82,7 @@ export default function LeadsPage() {
     }
 
     const handleViewDetails = (leadId: number) => {
-        // In a real app, this would navigate to a detail page or open a modal
-        console.log('View details for lead:', leadId)
-        alert(`View details for lead ID: ${leadId}`)
+        router.push(`/dashboard/leads/${leadId}`)
     }
 
     return (
@@ -127,9 +127,6 @@ export default function LeadsPage() {
                                     Name
                                 </th>
                                 <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
-                                    Email
-                                </th>
-                                <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
                                     Phone
                                 </th>
                                 <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
@@ -137,9 +134,6 @@ export default function LeadsPage() {
                                 </th>
                                 <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
                                     Status
-                                </th>
-                                <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
-                                    Lead Score
                                 </th>
                                 <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
                                     Actions
@@ -153,16 +147,12 @@ export default function LeadsPage() {
                                         <div className="text-sm font-medium text-slate-900">{lead.name}</div>
                                     </td>
                                     <td className="px-6 py-4">
-                                        <div className="text-sm text-slate-600">{lead.email}</div>
-                                    </td>
-                                    <td className="px-6 py-4">
                                         <div className="text-sm text-slate-600">{lead.phone}</div>
                                     </td>
                                     <td className="px-6 py-4">
                                         <div className="text-sm text-slate-600">{lead.course}</div>
                                     </td>
                                     <td className="px-6 py-4">{getStatusBadge(lead.status)}</td>
-                                    <td className="px-6 py-4">{renderLeadScore(lead.score)}</td>
                                     <td className="px-6 py-4">
                                         <button
                                             onClick={() => handleViewDetails(lead.id)}

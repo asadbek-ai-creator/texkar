@@ -7,6 +7,7 @@ import {
   UserCircle,
   LogOut,
   Users,
+  TrendingUp,
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
@@ -35,17 +36,13 @@ export default function Sidebar() {
     setIsLoggingOut(true)
 
     try {
-      // TODO: Replace with actual logout API call
-      // Simulate logout delay
-      await new Promise(resolve => setTimeout(resolve, 500))
-
-      // Clear any session data
-      // In a real app, this would clear auth tokens, session storage, etc.
-      localStorage.removeItem('authToken')
+      // Clear session data
+      localStorage.removeItem('access_token')
+      localStorage.removeItem('user')
       sessionStorage.clear()
 
-      // Redirect to home page
-      router.push('/')
+      // Redirect to login page
+      router.push('/auth/login')
     } catch (error) {
       console.error('Logout failed:', error)
       setIsLoggingOut(false)
@@ -82,6 +79,14 @@ export default function Sidebar() {
         >
           <Users className="h-5 w-5" />
           <span className="font-medium">{t('sidebar.leads')}</span>
+        </Link>
+
+        <Link
+          href="/dashboard/insights"
+          className={getLinkClassName('/dashboard/insights')}
+        >
+          <TrendingUp className="h-5 w-5" />
+          <span className="font-medium">Insights</span>
         </Link>
 
         <Link

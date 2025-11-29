@@ -129,7 +129,7 @@ export default function DashboardPage() {
             {/* Conversion Rate */}
             <StatCard
               title={t('analytics.conversionRate')}
-              value={`${analyticsData.conversion_rate.toFixed(1)}%`}
+              value={`${(analyticsData.conversion_rate || 0).toFixed(1)}%`}
               icon={TrendingUp}
               description={t('analytics.conversionRateDesc')}
             />
@@ -137,7 +137,7 @@ export default function DashboardPage() {
             {/* Average Lead Score */}
             <StatCard
               title={t('analytics.avgLeadScore')}
-              value={analyticsData.avg_lead_score.toFixed(1)}
+              value={(analyticsData.avg_lead_score || 0).toFixed(1)}
               icon={Star}
               description={t('analytics.avgLeadScoreDesc')}
             />
@@ -165,11 +165,11 @@ export default function DashboardPage() {
               </div>
               <div>
                 <p className="text-blue-100 text-sm">{t('analytics.conversion')}</p>
-                <p className="text-3xl font-bold">{analyticsData.conversion_rate.toFixed(1)}%</p>
+                <p className="text-3xl font-bold">{(analyticsData.conversion_rate || 0).toFixed(1)}%</p>
               </div>
               <div>
                 <p className="text-blue-100 text-sm">{t('analytics.leadQuality')}</p>
-                <p className="text-3xl font-bold">{analyticsData.avg_lead_score.toFixed(0)}/100</p>
+                <p className="text-3xl font-bold">{(analyticsData.avg_lead_score || 0).toFixed(0)}/100</p>
               </div>
             </div>
           </div>

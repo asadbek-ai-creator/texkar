@@ -14,22 +14,20 @@ export async function GET() {
 
         const data = await response.json()
 
-        // Transform to match frontend expectations
-        return NextResponse.json({
-            conversationsToday: data.conversations_today,
-            conversationsTodayGrowth: 12.5, // Backend doesn't provide growth yet
-            leadsToday: data.leads_today,
-            leadsTodayGrowth: -3.2, // Backend doesn't provide growth yet
-        })
+        // Return data as-is to match AnalyticsOverview interface
+        return NextResponse.json(data)
     } catch (error) {
         console.error('Failed to fetch analytics overview:', error)
 
-        // Return mock data as fallback
+        // Return fallback data matching AnalyticsOverview interface
         return NextResponse.json({
-            conversationsToday: 127,
-            conversationsTodayGrowth: 12.5,
-            leadsToday: 34,
-            leadsTodayGrowth: -3.2,
+            conversations_today: 0,
+            leads_today: 0,
+            active_conversations: 0,
+            conversion_rate: 0,
+            avg_lead_score: 0,
+            messages_today: 0,
+            date: new Date().toISOString()
         })
     }
 }

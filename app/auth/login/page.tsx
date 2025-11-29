@@ -3,12 +3,12 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Eye, EyeOff } from 'lucide-react'
-import { useRouter } from 'next/navigation'
 import { useLanguage } from '@/contexts/LanguageContext'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function LoginPage() {
-  const router = useRouter()
   const { t } = useLanguage()
+  const { login } = useAuth()
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
@@ -59,16 +59,10 @@ export default function LoginPage() {
     setIsLoading(true)
 
     try {
-      // TODO: Replace with actual API call
-      // Simulate API delay
-      await new Promise(resolve => setTimeout(resolve, 1000))
-
-      // For now, just redirect to dashboard on successful validation
-      // In a real app, you would authenticate with a backend
-      console.log('Login attempt:', formData)
-      router.push('/dashboard')
-    } catch (err) {
-      setError(t('auth.login.error'))
+      await login(formData.email, formData.password)
+      // Redirect is handled by the auth context
+    } catch (err: any) {
+      setError(err.message || t('auth.login.error'))
     } finally {
       setIsLoading(false)
     }

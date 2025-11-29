@@ -3,12 +3,12 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Eye, EyeOff, Check } from 'lucide-react'
-import { useRouter } from 'next/navigation'
 import { useLanguage } from '@/contexts/LanguageContext'
+import { useAuth } from '@/contexts/AuthContext'
 
 export default function SignupPage() {
-  const router = useRouter()
   const { t } = useLanguage()
+  const { signup } = useAuth()
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState('')
@@ -102,16 +102,10 @@ export default function SignupPage() {
     setIsLoading(true)
 
     try {
-      // TODO: Replace with actual API call
-      // Simulate API delay
-      await new Promise(resolve => setTimeout(resolve, 1500))
-
-      // For now, just redirect to setup/dashboard on successful validation
-      // In a real app, you would create account with a backend
-      console.log('Signup attempt:', formData)
-      router.push('/setup')
-    } catch (err) {
-      setError(t('auth.signup.error'))
+      await signup(formData.email, formData.fullName, formData.password)
+      // Redirect is handled by the auth context
+    } catch (err: any) {
+      setError(err.message || t('auth.signup.error'))
     } finally {
       setIsLoading(false)
     }

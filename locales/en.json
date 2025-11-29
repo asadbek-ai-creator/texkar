@@ -1,0 +1,327 @@
+{
+  "common": {
+    "login": "Log In",
+    "logout": "Logout",
+    "loggingOut": "Logging out...",
+    "signup": "Sign Up",
+    "signUpFree": "Sign Up for Free",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "welcomeBack": "Welcome Back!"
+  },
+  "navbar": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "howItWorks": "How It Works"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "leads": "Leads",
+    "settings": "Settings",
+    "account": "Account"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalMessages": "Total Messages",
+    "totalLeads": "Total Leads",
+    "conversionRate": "Conversion Rate",
+    "yourAccounts": "Your Accounts",
+    "addAccount": "Add Account",
+    "messages": "messages",
+    "activeStatus": "Active"
+  },
+  "leads": {
+    "title": "Leads",
+    "subtitle": "Track all conversations from your Telegram bot",
+    "newLead": "New Lead",
+    "needsManager": "Needs Manager",
+    "contacted": "Contacted",
+    "talkedTo": "Talked To",
+    "requestedManager": "Requested to speak with manager",
+    "courseInterest": "Course Interest",
+    "phoneNumber": "Phone Number",
+    "conversationTime": "Conversation Time",
+    "contactedOn": "Contacted on",
+    "newLeads": "New Leads",
+    "pendingContact": "Pending Contact",
+    "needManager": "Need Manager",
+    "totalLeads": "Total Leads",
+    "noLeadsYet": "No leads yet",
+    "noLeadsMessage": "Leads from your Telegram bot will appear here"
+  },
+  "language": {
+    "english": "English",
+    "russian": "Russian",
+    "uzbek": "Uzbek",
+    "kaa": "Karakalpak",
+    "selectLanguage": "Select Language"
+  },
+  "hero": {
+    "title": "Automate Your Instagram DMs &",
+    "titleHighlight": "Never Lose a Lead Again",
+    "subtitle": "Our AI assistant responds to every customer 24/7, collects their information, and saves it directly to your Google Sheets. Turn your DMs into a sales machine.",
+    "cta": "Start for Free",
+    "noCreditCard": "✓ No credit card required",
+    "socialProof": "teams already automating their DMs",
+    "chat1": "Hey, I'm interested in your product",
+    "reply1": "Thanks for reaching out! Tell me more about your business 🚀",
+    "chat2": "We sell digital marketing services",
+    "reply2": "Perfect! I've saved your info. A team member will contact you soon 👋",
+    "analyzing": "AI Assistant is analyzing..."
+  },
+  "features": {
+    "title": "Everything You Need to Automate and Grow",
+    "subtitle": "Powerful features designed to save you time and grow your business",
+    "autoReplies": {
+      "title": "Intelligent Auto-Replies",
+      "description": "AI-powered responses that sound natural and human-like, understanding context and intent to give relevant answers."
+    },
+    "leadCollection": {
+      "title": "Automated Lead Collection",
+      "description": "Automatically extract customer information, preferences, and contact details from conversations."
+    },
+    "availability": {
+      "title": "24/7 Availability",
+      "description": "Never miss a message. Your bot works around the clock, even while you sleep or focus on other tasks."
+    },
+    "sheets": {
+      "title": "Google Sheets Integration",
+      "description": "Leads are automatically saved to Google Sheets in real-time, making it easy to manage and follow up."
+    }
+  },
+  "howItWorks": {
+    "title": "Get Started in 3 Simple Steps",
+    "subtitle": "You'll be up and running in less than 5 minutes",
+    "step1": {
+      "title": "Connect Your Account",
+      "description": "Securely connect your Instagram or Telegram account in seconds. We use industry-standard encryption."
+    },
+    "step2": {
+      "title": "Set Your Instructions",
+      "description": "Write a simple prompt to teach your AI assistant how to talk to your customers and what to ask them."
+    },
+    "step3": {
+      "title": "Enjoy Automation",
+      "description": "That's it! Your bot is now working for you around the clock, collecting leads and responding to messages."
+    },
+    "done": "Done!",
+    "cta": "Start Building Your Bot Today"
+  },
+  "pricing": {
+    "title": "Choose the Plan That's Right for You",
+    "subtitle": "Start free and upgrade whenever you're ready",
+    "mostPopular": "Most Popular",
+    "free": "Free",
+    "perMonth": "/ month",
+    "description": "Get started with AI automation. Scale up anytime.",
+    "cta": "Get Started for Free",
+    "whatsIncluded": "What's included:",
+    "features": {
+      "account": "1 Social Media Account (Instagram or Telegram)",
+      "replies": "100 AI Replies per month",
+      "sheets": "Google Sheets Integration",
+      "availability": "24/7 Bot Availability",
+      "analytics": "Basic Analytics Dashboard",
+      "support": "Email Support"
+    },
+    "footer": "No credit card required. Cancel anytime.",
+    "proPlan": "Pro and Enterprise plans",
+    "comingSoon": "coming soon with unlimited accounts, advanced analytics, and dedicated support."
+  },
+  "finalCTA": {
+    "title": "Ready to Stop Losing Customers?",
+    "subtitle": "Start automating your conversations today and give your business the 24/7 presence it deserves. No credit card required.",
+    "cta": "Sign Up Now - It's Free!",
+    "activeUsers": "Active Users",
+    "messagesAutomated": "Messages Automated",
+    "averageRating": "Average Rating"
+  },
+  "footer": {
+    "description": "Automate your customer conversations and turn DMs into a sales machine.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "blog": "Blog",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "rightsReserved": "All rights reserved."
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back!",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot Password?",
+      "submit": "Log In",
+      "submitting": "Logging in...",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "error": "Login failed. Please try again.",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordLength": "Password must be at least 6 characters"
+    },
+    "signup": {
+      "title": "Create Your Account",
+      "fullName": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "agreePrivacy": "I have read and agree to the",
+      "privacyPolicy": "Privacy Policy",
+      "agreeTerms": "I agree to the",
+      "termsOfService": "Terms of Service",
+      "submit": "Create Account",
+      "submitting": "Creating Account...",
+      "hasAccount": "Already have an account?",
+      "login": "Log In",
+      "error": "Signup failed. Please try again.",
+      "nameRequired": "Full name is required",
+      "nameLength": "Full name must be at least 2 characters",
+      "privacyRequired": "Please agree to the Privacy Policy",
+      "termsRequired": "Please agree to the Terms of Service"
+    },
+    "forgotPassword": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email address and we'll send you a link to reset your password.",
+      "email": "Email Address",
+      "submit": "Send Reset Link",
+      "submitting": "Sending...",
+      "rememberPassword": "Remember your password?",
+      "login": "Log In",
+      "backToLogin": "Back to Login",
+      "successTitle": "Check your email",
+      "successSubtitle": "We've sent a password reset link to",
+      "successMessage": "Follow the link in the email to reset your password. If you don't see the email, check your spam folder.",
+      "noEmail": "Didn't receive the email?",
+      "tryAgain": "Try again",
+      "error": "Failed to send reset email. Please try again."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "botConfig": {
+      "title": "AI Bot Configuration",
+      "description": "Provide clear instructions for your AI assistant. Define its role, tone of voice, and the specific information it needs to collect from users.",
+      "promptLabel": "Bot Prompt",
+      "promptPlaceholder": "Example: You are a helpful manager for an education center. Be friendly and polite. Provide information about our courses. To sign up a student, ask for their full name and phone number.",
+      "success": "Configuration saved successfully!",
+      "save": "Save Configuration",
+      "saving": "Saving..."
+    },
+    "integrations": {
+      "title": "Integrations",
+      "googleSheets": {
+        "name": "Google Sheets",
+        "description": "Automatically sync all collected user data to a Google Sheet in real-time."
+      },
+      "connected": "Connected",
+      "connect": "Connect",
+      "connecting": "Connecting...",
+      "comingSoon": "More integrations coming soon! We're working on adding Zapier, Make, and other popular platforms."
+    }
+  },
+  "accountSettings": {
+    "title": "Account Settings",
+    "profile": {
+      "title": "Profile",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "emailNote": "Email cannot be changed. Contact support to update.",
+      "success": "Profile updated successfully!",
+      "update": "Update Profile",
+      "updating": "Updating..."
+    },
+    "security": {
+      "title": "Change Password",
+      "currentPassword": "Current Password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "confirmPassword": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Confirm new password",
+      "success": "Password changed successfully!",
+      "change": "Change Password",
+      "changing": "Changing...",
+      "currentRequired": "Current password is required",
+      "newRequired": "New password is required",
+      "newLength": "New password must be at least 6 characters",
+      "matchError": "Passwords do not match",
+      "sameError": "New password must be different from current password"
+    },
+    "dangerZone": {
+      "title": "Danger Zone",
+      "description": "This action is permanent and cannot be undone. All of your data, including connected accounts and bot configurations, will be permanently lost.",
+      "confirmTitle": "Are you absolutely sure?",
+      "confirmMessage": "This will permanently delete your account and all associated data. This action cannot be undone.",
+      "typeEmail": "Type your email address to confirm:",
+      "cancel": "Cancel",
+      "delete": "Delete Account",
+      "deleting": "Deleting...",
+      "successAlert": "Account deleted successfully. You will be redirected to the home page."
+    }
+  },
+  "setup": {
+    "title": "Welcome to Dialogic!",
+    "subtitle": "Let's get your AI assistant ready to help your customers.",
+    "step1": {
+      "title": "Connect Your Account",
+      "description": "Link your Instagram or Telegram account to start automating messages."
+    },
+    "step2": {
+      "title": "Configure Your Bot",
+      "description": "Tell your AI assistant how to behave and what information to collect."
+    },
+    "step3": {
+      "title": "Test It Out",
+      "description": "Send a message to your bot to see it in action."
+    },
+    "connectButton": "Connect Account",
+    "configureButton": "Configure Bot",
+    "dashboardButton": "Go to Dashboard"
+  },
+  "ctaCard": {
+    "title": "Your Bot is Ready to Learn!",
+    "description": "Configure your bot settings and start automating your DM responses",
+    "button": "Go to Bot Settings"
+  },
+  "analytics": {
+    "dataFor": "Data for",
+    "autoRefresh": "Auto-refreshes every 30 seconds",
+    "error": "Error",
+    "loading": "Loading analytics...",
+    "conversationsToday": "Conversations Today",
+    "conversationsTodayDesc": "Total conversations started today",
+    "leadsToday": "Leads Today",
+    "leadsTodayDesc": "New leads generated today",
+    "activeConversations": "Active Conversations",
+    "activeConversationsDesc": "Currently ongoing conversations",
+    "conversionRate": "Conversion Rate",
+    "conversionRateDesc": "Conversations to leads ratio",
+    "avgLeadScore": "Average Lead Score",
+    "avgLeadScoreDesc": "Quality score of today's leads",
+    "messagesToday": "Messages Today",
+    "messagesTodayDesc": "Total messages exchanged",
+    "todaysSummary": "Today's Summary",
+    "conversations": "Conversations",
+    "leads": "Leads",
+    "conversion": "Conversion",
+    "leadQuality": "Lead Quality",
+    "messageVolume": "Message Volume (Last 7 Days)",
+    "courseDistribution": "Course Distribution"
+  }
+}

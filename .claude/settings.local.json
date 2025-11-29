@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(dir:*)",
+      "Bash(findstr:*)",
+      "Bash(git reset:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git add:*)",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: TechLearn AI Dashboard with Backend Integration\n\n- Added complete admin dashboard with analytics\n- Integrated with Railway backend API (web-production-11f5.up.railway.app)\n- Created API service layer (lib/api.ts)\n- Enhanced StatCard components with icons and trends\n- Implemented 6 key metrics: conversations, leads, active, conversion, score, messages\n- Added auto-refresh functionality (30 seconds)\n- Created comprehensive documentation\n- Added standalone HTML dashboards for quick testing\n\n🚀 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

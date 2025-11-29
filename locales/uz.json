@@ -1,0 +1,327 @@
+{
+  "common": {
+    "login": "Kirish",
+    "logout": "Chiqish",
+    "loggingOut": "Chiqilmoqda...",
+    "signup": "Ro'yxatdan o'tish",
+    "signUpFree": "Bepul ro'yxatdan o'tish",
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "dontHaveAccount": "Hisobingiz yo'qmi?",
+    "alreadyHaveAccount": "Hisobingiz bormi?",
+    "submit": "Yuborish",
+    "cancel": "Bekor qilish",
+    "save": "Saqlash",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "loading": "Yuklanmoqda...",
+    "welcomeBack": "Xush kelibsiz!"
+  },
+  "navbar": {
+    "features": "Imkoniyatlar",
+    "pricing": "Narxlar",
+    "howItWorks": "Qanday ishlaydi"
+  },
+  "sidebar": {
+    "dashboard": "Boshqaruv paneli",
+    "leads": "Lidlar",
+    "settings": "Sozlamalar",
+    "account": "Hisob"
+  },
+  "dashboard": {
+    "title": "Boshqaruv paneli",
+    "totalMessages": "Jami xabarlar",
+    "totalLeads": "Jami lidlar",
+    "conversionRate": "Konversiya",
+    "yourAccounts": "Sizning hisoblaringiz",
+    "addAccount": "Hisob qo'shish",
+    "messages": "xabarlar",
+    "activeStatus": "Faol"
+  },
+  "leads": {
+    "title": "Lidlar",
+    "subtitle": "Telegram botingizdan barcha suhbatlarni kuzatib boring",
+    "newLead": "Yangi lid",
+    "needsManager": "Menejer kerak",
+    "contacted": "Bog'lanildi",
+    "talkedTo": "Bog'lanildi",
+    "requestedManager": "Menejer bilan gaplashishni so'radi",
+    "courseInterest": "Qiziqtirgan kurs",
+    "phoneNumber": "Telefon raqami",
+    "conversationTime": "Suhbat vaqti",
+    "contactedOn": "Bog'lanildi",
+    "newLeads": "Yangi lidlar",
+    "pendingContact": "Kutilmoqda",
+    "needManager": "Menejer kerak",
+    "totalLeads": "Jami lidlar",
+    "noLeadsYet": "Hali lidlar yo'q",
+    "noLeadsMessage": "Telegram botingizdan lidlar bu yerda ko'rinadi"
+  },
+  "language": {
+    "english": "Inglizcha",
+    "russian": "Ruscha",
+    "uzbek": "O'zbekcha",
+    "kaa": "Qaraqalpaqsha",
+    "selectLanguage": "Tilni tanlang"
+  },
+  "hero": {
+    "title": "Instagram DM'larni avtomatlashtiring va",
+    "titleHighlight": "Hech qachon lidlarni yo'qotmang",
+    "subtitle": "AI yordamchimiz har bir mijozga 24/7 javob beradi, ma'lumotlarini to'playdi va to'g'ridan-to'g'ri Google Sheets'ga saqlaydi. DM'laringizni savdo mashinasiga aylantiring.",
+    "cta": "Bepul boshlash",
+    "noCreditCard": "✓ Kredit karta talab qilinmaydi",
+    "socialProof": "jamoa allaqachon DM'larni avtomatlashtirmoqda",
+    "chat1": "Salom, mahsulotingizga qiziqaman",
+    "reply1": "Murojaat qilganingiz uchun rahmat! Biznesingiz haqida ko'proq ma'lumot bering 🚀",
+    "chat2": "Biz raqamli marketing xizmatlarini sotamiz",
+    "reply2": "Ajoyib! Ma'lumotingizni saqladim. Jamoa a'zosi tez orada siz bilan bog'lanadi 👋",
+    "analyzing": "AI yordamchi tahlil qilmoqda..."
+  },
+  "features": {
+    "title": "Avtomatlashtirish va o'sish uchun kerakli hamma narsa",
+    "subtitle": "Vaqtingizni tejash va biznesingizni o'stirish uchun mo'ljallangan kuchli imkoniyatlar",
+    "autoReplies": {
+      "title": "Aqlli avtomatik javoblar",
+      "description": "AI asosidagi javoblar tabiiy va insoniy eshitiladi, kontekst va niyatni tushunib, tegishli javoblar beradi."
+    },
+    "leadCollection": {
+      "title": "Avtomatik lid yig'ish",
+      "description": "Suhbatlardan mijoz ma'lumotlari, afzalliklari va kontakt ma'lumotlarini avtomatik ravishda ajratib oling."
+    },
+    "availability": {
+      "title": "24/7 mavjudlik",
+      "description": "Hech qachon xabarni o'tkazib yubormang. Botingiz soat bo'yi ishlaydi, hatto siz uxlayotganingizda yoki boshqa ishlar bilan band bo'lganingizda ham."
+    },
+    "sheets": {
+      "title": "Google Sheets integratsiyasi",
+      "description": "Lidlar real vaqtda avtomatik ravishda Google Sheets'ga saqlanadi, bu boshqarish va keyingi ishlarni osonlashtiradi."
+    }
+  },
+  "howItWorks": {
+    "title": "3 ta oddiy qadamda boshlang",
+    "subtitle": "5 daqiqadan kamroq vaqtda ishga tushirasiz",
+    "step1": {
+      "title": "Hisobingizni ulang",
+      "description": "Instagram yoki Telegram hisobingizni bir necha soniyada xavfsiz ulang. Biz sanoat standartidagi shifrlashdan foydalanamiz."
+    },
+    "step2": {
+      "title": "Ko'rsatmalarni belgilang",
+      "description": "AI yordamchingizga mijozlar bilan qanday gaplashish va ulardan nimani so'rash kerakligini o'rgatish uchun oddiy ko'rsatma yozing."
+    },
+    "step3": {
+      "title": "Avtomatlashtirish bilan zavqlaning",
+      "description": "Hammasi shu! Botingiz endi siz uchun soat bo'yi ishlaydi, lidlarni to'playdi va xabarlarga javob beradi."
+    },
+    "done": "Tayyor!",
+    "cta": "Bugun botingizni yarating"
+  },
+  "pricing": {
+    "title": "O'zingizga mos rejani tanlang",
+    "subtitle": "Bepul boshlang va tayyor bo'lganingizda yangilang",
+    "mostPopular": "Eng mashhur",
+    "free": "Bepul",
+    "perMonth": "/ oyiga",
+    "description": "AI avtomatlashtirish bilan boshlang. Istalgan vaqtda kengaytiring.",
+    "cta": "Bepul boshlash",
+    "whatsIncluded": "Nima kiradi:",
+    "features": {
+      "account": "1 ta ijtimoiy tarmoq hisobi (Instagram yoki Telegram)",
+      "replies": "Oyiga 100 ta AI javob",
+      "sheets": "Google Sheets integratsiyasi",
+      "availability": "24/7 bot mavjudligi",
+      "analytics": "Asosiy tahlil paneli",
+      "support": "Email orqali yordam"
+    },
+    "footer": "Kredit karta talab qilinmaydi. Istalgan vaqtda bekor qiling.",
+    "proPlan": "Pro va Enterprise rejalar",
+    "comingSoon": "tez orada cheksiz hisoblar, ilg'or tahlillar va maxsus yordam bilan keladi."
+  },
+  "finalCTA": {
+    "title": "Mijozlarni yo'qotishni to'xtatishga tayyormisiz?",
+    "subtitle": "Bugun suhbatlaringizni avtomatlashtirishni boshlang va biznesingizga munosib 24/7 mavjudlikni bering. Kredit karta talab qilinmaydi.",
+    "cta": "Hozir ro'yxatdan o'ting - Bu bepul!",
+    "activeUsers": "Faol foydalanuvchilar",
+    "messagesAutomated": "Avtomatlashtirilgan xabarlar",
+    "averageRating": "O'rtacha reyting"
+  },
+  "footer": {
+    "description": "Mijozlar bilan suhbatlaringizni avtomatlashtiring va DM'larni savdo mashinasiga aylantiring.",
+    "product": "Mahsulot",
+    "company": "Kompaniya",
+    "legal": "Huquqiy",
+    "aboutUs": "Biz haqimizda",
+    "contact": "Aloqa",
+    "blog": "Blog",
+    "privacyPolicy": "Maxfiylik siyosati",
+    "termsOfService": "Foydalanish shartlari",
+    "cookiePolicy": "Cookie siyosati",
+    "rightsReserved": "Barcha huquqlar himoyalangan."
+  },
+  "auth": {
+    "login": {
+      "title": "Xush kelibsiz!",
+      "email": "Email",
+      "password": "Parol",
+      "forgotPassword": "Parolni unutdingizmi?",
+      "submit": "Kirish",
+      "submitting": "Kirilmoqda...",
+      "noAccount": "Hisobingiz yo'qmi?",
+      "signUp": "Ro'yxatdan o'tish",
+      "error": "Kirish muvaffaqiyatsiz. Iltimos, qayta urinib ko'ring.",
+      "emailRequired": "Email talab qilinadi",
+      "emailInvalid": "Iltimos, to'g'ri email manzilini kiriting",
+      "passwordRequired": "Parol talab qilinadi",
+      "passwordLength": "Parol kamida 6 ta belgidan iborat bo'lishi kerak"
+    },
+    "signup": {
+      "title": "Hisobingizni yarating",
+      "fullName": "To'liq ism",
+      "email": "Email",
+      "password": "Parol",
+      "agreePrivacy": "Men o'qidim va roziman",
+      "privacyPolicy": "Maxfiylik siyosati",
+      "agreeTerms": "Men roziman",
+      "termsOfService": "Foydalanish shartlari",
+      "submit": "Hisob yaratish",
+      "submitting": "Hisob yaratilmoqda...",
+      "hasAccount": "Hisobingiz bormi?",
+      "login": "Kirish",
+      "error": "Ro'yxatdan o'tish muvaffaqiyatsiz. Iltimos, qayta urinib ko'ring.",
+      "nameRequired": "To'liq ism talab qilinadi",
+      "nameLength": "To'liq ism kamida 2 ta belgidan iborat bo'lishi kerak",
+      "privacyRequired": "Iltimos, Maxfiylik siyosatiga rozi bo'ling",
+      "termsRequired": "Iltimos, Foydalanish shartlariga rozi bo'ling"
+    },
+    "forgotPassword": {
+      "title": "Parolni tiklash",
+      "subtitle": "Email manzilingizni kiriting va biz sizga parolni tiklash havolasini yuboramiz.",
+      "email": "Email manzili",
+      "submit": "Tiklash havolasini yuborish",
+      "submitting": "Yuborilmoqda...",
+      "rememberPassword": "Parolingizni esladingizmi?",
+      "login": "Kirish",
+      "backToLogin": "Kirishga qaytish",
+      "successTitle": "Emailingizni tekshiring",
+      "successSubtitle": "Biz parolni tiklash havolasini yubordik",
+      "successMessage": "Parolni tiklash uchun emaildagi havolaga o'ting. Agar emailni ko'rmasangiz, spam papkasini tekshiring.",
+      "noEmail": "Email kelmadimi?",
+      "tryAgain": "Qayta urinib ko'ring",
+      "error": "Tiklash emailini yuborib bo'lmadi. Iltimos, qayta urinib ko'ring."
+    }
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "botConfig": {
+      "title": "AI bot konfiguratsiyasi",
+      "description": "AI yordamchingiz uchun aniq ko'rsatmalar bering. Uning rolini, ohangini va foydalanuvchilardan yig'ishi kerak bo'lgan aniq ma'lumotlarni belgilang.",
+      "promptLabel": "Bot ko'rsatmasi",
+      "promptPlaceholder": "Misol: Siz ta'lim markazining foydali menejerisiz. Do'stona va xushmuomala bo'ling. Kurslarimiz haqida ma'lumot bering. Talabani ro'yxatdan o'tkazish uchun uning to'liq ismi va telefon raqamini so'rang.",
+      "success": "Konfiguratsiya muvaffaqiyatli saqlandi!",
+      "save": "Konfiguratsiyani saqlash",
+      "saving": "Saqlanmoqda..."
+    },
+    "integrations": {
+      "title": "Integratsiyalar",
+      "googleSheets": {
+        "name": "Google Sheets",
+        "description": "Barcha to'plangan foydalanuvchi ma'lumotlarini real vaqtda Google Sheet bilan avtomatik sinxronlashtiring."
+      },
+      "connected": "Ulangan",
+      "connect": "Ulash",
+      "connecting": "Ulanmoqda...",
+      "comingSoon": "Tez orada ko'proq integratsiyalar! Biz Zapier, Make va boshqa mashhur platformalarni qo'shish ustida ishlayapmiz."
+    }
+  },
+  "accountSettings": {
+    "title": "Hisob sozlamalari",
+    "profile": {
+      "title": "Profil",
+      "fullName": "To'liq ism",
+      "fullNamePlaceholder": "To'liq ismingizni kiriting",
+      "email": "Email manzili",
+      "emailPlaceholder": "your@email.com",
+      "emailNote": "Emailni o'zgartirib bo'lmaydi. Yangilash uchun yordam xizmatiga murojaat qiling.",
+      "success": "Profil muvaffaqiyatli yangilandi!",
+      "update": "Profilni yangilash",
+      "updating": "Yangilanmoqda..."
+    },
+    "security": {
+      "title": "Parolni o'zgartirish",
+      "currentPassword": "Joriy parol",
+      "currentPasswordPlaceholder": "Joriy parolni kiriting",
+      "newPassword": "Yangi parol",
+      "newPasswordPlaceholder": "Yangi parolni kiriting",
+      "confirmPassword": "Yangi parolni tasdiqlang",
+      "confirmPasswordPlaceholder": "Yangi parolni tasdiqlang",
+      "success": "Parol muvaffaqiyatli o'zgartirildi!",
+      "change": "Parolni o'zgartirish",
+      "changing": "O'zgartirilmoqda...",
+      "currentRequired": "Joriy parol talab qilinadi",
+      "newRequired": "Yangi parol talab qilinadi",
+      "newLength": "Yangi parol kamida 6 ta belgidan iborat bo'lishi kerak",
+      "matchError": "Parollar mos kelmaydi",
+      "sameError": "Yangi parol joriy paroldan farq qilishi kerak"
+    },
+    "dangerZone": {
+      "title": "Xavfli zona",
+      "description": "Bu harakat doimiy va bekor qilib bo'lmaydi. Barcha ma'lumotlaringiz, shu jumladan ulangan hisoblar va bot konfiguratsiyalari butunlay yo'qoladi.",
+      "confirmTitle": "Mutlaqo ishonchingiz komilmi?",
+      "confirmMessage": "Bu hisobingizni va barcha bog'liq ma'lumotlarni butunlay o'chiradi. Bu harakatni bekor qilib bo'lmaydi.",
+      "typeEmail": "Tasdiqlash uchun email manzilingizni kiriting:",
+      "cancel": "Bekor qilish",
+      "delete": "Hisobni o'chirish",
+      "deleting": "O'chirilmoqda...",
+      "successAlert": "Hisob muvaffaqiyatli o'chirildi. Siz bosh sahifaga yo'naltirilasiz."
+    }
+  },
+  "setup": {
+    "title": "Dialogic'ga xush kelibsiz!",
+    "subtitle": "Keling, AI yordamchingizni mijozlaringizga yordam berishga tayyorlaymiz.",
+    "step1": {
+      "title": "Hisobingizni ulang",
+      "description": "Xabarlarni avtomatlashtirish uchun Instagram yoki Telegram hisobingizni ulang."
+    },
+    "step2": {
+      "title": "Botingizni sozlang",
+      "description": "AI yordamchingizga qanday harakat qilish va qanday ma'lumot to'plash kerakligini ayting."
+    },
+    "step3": {
+      "title": "Sinab ko'ring",
+      "description": "Botingizga xabar yuboring va uni amalda ko'ring."
+    },
+    "connectButton": "Hisobni ulash",
+    "configureButton": "Botni sozlash",
+    "dashboardButton": "Boshqaruv paneliga o'tish"
+  },
+  "ctaCard": {
+    "title": "Botingiz o'rganishga tayyor!",
+    "description": "Bot sozlamalarini sozlang va DM javoblarini avtomatlashtirishni boshlang",
+    "button": "Bot sozlamalariga o'tish"
+  },
+  "analytics": {
+    "dataFor": "Ma'lumotlar:",
+    "autoRefresh": "Har 30 soniyada yangilanadi",
+    "error": "Xatolik",
+    "loading": "Analitika yuklanmoqda...",
+    "conversationsToday": "Bugungi suhbatlar",
+    "conversationsTodayDesc": "Bugun boshlangan jami suhbatlar",
+    "leadsToday": "Bugungi lidlar",
+    "leadsTodayDesc": "Bugun yaratilgan yangi lidlar",
+    "activeConversations": "Faol suhbatlar",
+    "activeConversationsDesc": "Hozirgi vaqtda davom etayotgan suhbatlar",
+    "conversionRate": "Konversiya darajasi",
+    "conversionRateDesc": "Suhbatlarning lidlarga nisbati",
+    "avgLeadScore": "O'rtacha lid bali",
+    "avgLeadScoreDesc": "Bugungi lidlarning sifat darajasi",
+    "messagesToday": "Bugungi xabarlar",
+    "messagesTodayDesc": "Jami almashilgan xabarlar",
+    "todaysSummary": "Bugungi xulosa",
+    "conversations": "Suhbatlar",
+    "leads": "Lidlar",
+    "conversion": "Konversiya",
+    "leadQuality": "Lid sifati",
+    "messageVolume": "Xabarlar hajmi (So'nggi 7 kun)",
+    "courseDistribution": "Kurslar taqsimoti"
+  }
+}

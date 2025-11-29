@@ -1,0 +1,327 @@
+{
+  "common": {
+    "login": "Kiriw",
+    "logout": "Shıǵıw",
+    "loggingOut": "Shıǵılmaqta...",
+    "signup": "Dizimnen ótiw",
+    "signUpFree": "Biypul dizimnen ótiw",
+    "email": "Email",
+    "password": "Parol",
+    "forgotPassword": "Paroldi umıttıńızba?",
+    "dontHaveAccount": "Esabıńız joqpa?",
+    "alreadyHaveAccount": "Esabıńız barba?",
+    "submit": "Jiberiw",
+    "cancel": "Biykarlaw",
+    "save": "Saqlaw",
+    "delete": "Óshiriw",
+    "edit": "Ózgertiw",
+    "loading": "Júklenbekte...",
+    "welcomeBack": "Qayta xosh keldińiz!"
+  },
+  "navbar": {
+    "features": "Múmkinshilikler",
+    "pricing": "Bahalar",
+    "howItWorks": "Bul qalay isleydi"
+  },
+  "sidebar": {
+    "dashboard": "Basqarıw paneli",
+    "leads": "Potencial klientler",
+    "settings": "Sazlawlar",
+    "account": "Esap"
+  },
+  "dashboard": {
+    "title": "Basqarıw paneli",
+    "totalMessages": "Jámi xabarlar",
+    "totalLeads": "Jámi klientler",
+    "conversionRate": "Konversiya kórsetkishi",
+    "yourAccounts": "Sizdiń esaplarıńız",
+    "addAccount": "Esap qosıw",
+    "messages": "xabarlar",
+    "activeStatus": "Aktiv"
+  },
+  "leads": {
+    "title": "Potencial klientler",
+    "subtitle": "Telegram botıńızdaǵı barlıq sáwbetlesiwlerdi baqlap barıń",
+    "newLead": "Jańa klient",
+    "needsManager": "Menejer kerek",
+    "contacted": "Baylanısqa shıǵıldı",
+    "talkedTo": "Sóylesildi",
+    "requestedManager": "Menejer menen sóylesiwdi soradı",
+    "courseInterest": "Kursqa qızıǵıwshılıǵı",
+    "phoneNumber": "Telefon nomeri",
+    "conversationTime": "Sáwbet waqtı",
+    "contactedOn": "Baylanısqa shıqqan waqtı",
+    "newLeads": "Jańa klientler",
+    "pendingContact": "Baylanıs kútilmekte",
+    "needManager": "Menejer kerek",
+    "totalLeads": "Jámi klientler",
+    "noLeadsYet": "Házirshe klientler joq",
+    "noLeadsMessage": "Telegram botıńızdan kelgen sorawlar usı jerde kórinedi"
+  },
+  "language": {
+    "english": "Inglis tili",
+    "russian": "Rus tili",
+    "uzbek": "Ózbek tili",
+    "kaa": "Qaraqalpaqsha",
+    "selectLanguage": "Tildi tańlań"
+  },
+  "hero": {
+    "title": "Instagram DM-di avtomatlastırıń hám",
+    "titleHighlight": "Klientti heshqashan joǵaltpań",
+    "subtitle": "Bizdiń AI járdemshimiz hár bir klientke 24/7 juwap beredi, olardıń maǵlıwmatların toplaydı hám tikkeley Google Sheets-ke saqlaydı. DM-di satıw mashinasına aylandırıń.",
+    "cta": "Biypul baslań",
+    "noCreditCard": "✓ Kredit karta talap etilmeydi",
+    "socialProof": "komandalar óz DM-lerin avtomatlastırmaqta",
+    "chat1": "Sálem, men sizdiń ónimińizge qızıǵıp atırman",
+    "reply1": "Xabarlasqanıńız ushın raxmet! Biznesińiz haqqında kóbirek aytıp beriń 🚀",
+    "chat2": "Biz sanlı marketing xızmetlerin satamız",
+    "reply2": "Júdá jaqsı! Maǵlıwmatıńızdı saqlap qoydım. Komanda aǵzası tez arada siz benen baylanısadı 👋",
+    "analyzing": "AI Járdemshi analiz qılmaqta..."
+  },
+  "features": {
+    "title": "Avtomatlastırıw hám ósiw ushın barlıq qural",
+    "subtitle": "Waqtıńızdı únemlew hám biznesińizdi rawajlandırıw ushın kúshli múmkinshilikler",
+    "autoReplies": {
+      "title": "Aqıllı avto-juwaplar",
+      "description": "Kontekst hám maqsetti túsiniw arqalı tábiyiy hám insanday juwap beretuǵın AI tiykarındaǵı juwaplar."
+    },
+    "leadCollection": {
+      "title": "Klientlerdi avtomat toplaw",
+      "description": "Sáwbetlesiwlerden klient maǵlıwmatların, qálewlerin hám baylanıs detayların avtomat túrde ajıratıp alıw."
+    },
+    "availability": {
+      "title": "24/7 Baylanıs",
+      "description": "Heshqanday xabardı ótkerip jibermeń. Botıńız siz uyıqlap atırǵanda yamasa basqa jumıs penen bánt bolǵanda da tún-u kún isleydi."
+    },
+    "sheets": {
+      "title": "Google Sheets integraciyası",
+      "description": "Potencial klientler avtomat túrde real waqıt rejiminde Google Sheets-ke saqlanadı, bul basqarıw hám qayta baylanısıwdı ańsatlastıradı."
+    }
+  },
+  "howItWorks": {
+    "title": "3 ápiwayı qádemde baslań",
+    "subtitle": "5 minuttan az waqıt ishinde iske túsiresiz",
+    "step1": {
+      "title": "Esabıńızdı jalǵań",
+      "description": "Instagram yamasa Telegram esabıńızdı sekundlar ishinde qawipsiz jalǵań. Biz sanaat standartındaǵı shifrlawdı qollanamız."
+    },
+    "step2": {
+      "title": "Kórsetpelerdi ornatıń",
+      "description": "AI járdemshińizge klientler menen qalay sóylesiwdi hám ne sorawdı úyretiw ushın ápiwayı tapsırma (prompt) jazıń."
+    },
+    "step3": {
+      "title": "Avtomatlastırıwdan lázzetleniń",
+      "description": "Boldı! Botıńız endi siz ushın tún-u kún islep, klientlerdi toplaydı hám xabarlarǵa juwap beredi."
+    },
+    "done": "Tayar!",
+    "cta": "Botıńızdı dúziwdi búgin baslań"
+  },
+  "pricing": {
+    "title": "Sizge sáykes keletuǵın tarif",
+    "subtitle": "Biypul baslań hám qálegen waqıtta kúsheytiń",
+    "mostPopular": "Eń kóp tańlanatuǵını",
+    "free": "Biypul",
+    "perMonth": "/ ayına",
+    "description": "AI avtomatlastırıwdı baslań. Qálegen waqıtta keńeytiń.",
+    "cta": "Biypul baslaw",
+    "whatsIncluded": "Ishine kiredi:",
+    "features": {
+      "account": "1 Social tarmaq esabı (Instagram yamasa Telegram)",
+      "replies": "Ayına 100 AI juwap",
+      "sheets": "Google Sheets integraciyası",
+      "availability": "24/7 Bot jumısı",
+      "analytics": "Tiykarǵı analitika paneli",
+      "support": "Email qollap-quwatlaw"
+    },
+    "footer": "Kredit karta kerek emes. Qálegen waqıtta biykarlaw.",
+    "proPlan": "Pro hám Enterprise tarifleri",
+    "comingSoon": "sheksiz esaplar, keńeytilgen analitika hám arnawlı qollap-quwatlaw menen tez arada shıǵadı."
+  },
+  "finalCTA": {
+    "title": "Klientlerdi joǵaltıwdı toqtatıwǵa tayarsızba?",
+    "subtitle": "Sáwbetlesiwlerdi búgin avtomatlastırıń hám biznesińizge ılayıqlı 24/7 qatnasıwdı támiyinleń. Kredit karta talap etilmeydi.",
+    "cta": "Házir dizimnen ótiń - Bul biypul!",
+    "activeUsers": "Aktiv paydalanıwshılar",
+    "messagesAutomated": "Avtomatlasqan xabarlar",
+    "averageRating": "Ortasha reyting"
+  },
+  "footer": {
+    "description": "Klientler menen sáwbetlesiwdi avtomatlastırıń hám DM-di satıw mashinasına aylandırıń.",
+    "product": "Ónim",
+    "company": "Kompaniya",
+    "legal": "Huqıqiy",
+    "aboutUs": "Biz haqqımızda",
+    "contact": "Baylanıs",
+    "blog": "Blog",
+    "privacyPolicy": "Qupıyalılıq siyasatı",
+    "termsOfService": "Paydalanıw shártleri",
+    "cookiePolicy": "Cookie siyasatı",
+    "rightsReserved": "Barlıq huqıqlar qorǵalǵan."
+  },
+  "auth": {
+    "login": {
+      "title": "Qayta xosh keldińiz!",
+      "email": "Email",
+      "password": "Parol",
+      "forgotPassword": "Paroldi umıttıńızba?",
+      "submit": "Kiriw",
+      "submitting": "Kirilmekte...",
+      "noAccount": "Esabıńız joqpa?",
+      "signUp": "Dizimnen ótiw",
+      "error": "Kiriwde qátelik. Qayta urınıp kóriń.",
+      "emailRequired": "Email kiritiliwi shárt",
+      "emailInvalid": "Durdıs email adres kirgiziń",
+      "passwordRequired": "Parol kiritiliwi shárt",
+      "passwordLength": "Parol keminde 6 belgiden turıwı kerek"
+    },
+    "signup": {
+      "title": "Esabıńızdı jaratıń",
+      "fullName": "To'lıq atı-jónińiz",
+      "email": "Email",
+      "password": "Parol",
+      "agreePrivacy": "Men oqıp shıqtım hám kelisemen:",
+      "privacyPolicy": "Qupıyalılıq siyasatı",
+      "agreeTerms": "Men kelisemen:",
+      "termsOfService": "Paydalanıw shártleri",
+      "submit": "Esap jaratıw",
+      "submitting": "Esap jaratılmaqta...",
+      "hasAccount": "Esabıńız barba?",
+      "login": "Kiriw",
+      "error": "Dizimnen ótiwde qátelik. Qayta urınıp kóriń.",
+      "nameRequired": "To'lıq atı-jónińizdi kiritiliwi shárt",
+      "nameLength": "Atı-jón keminde 2 belgiden turıwı kerek",
+      "privacyRequired": "Qupıyalılıq siyasatı menen kelisiwińiz kerek",
+      "termsRequired": "Paydalanıw shártleri menen kelisiwińiz kerek"
+    },
+    "forgotPassword": {
+      "title": "Paroldi qayta tiklew",
+      "subtitle": "Email adresińizdi kirgiziń, biz sizge paroldi tiklew siltemesin jiberemiz.",
+      "email": "Email Adres",
+      "submit": "Tiklew siltemesin jiberiw",
+      "submitting": "Jiberilmekte...",
+      "rememberPassword": "Parol esıńizge tústime?",
+      "login": "Kiriw",
+      "backToLogin": "Kiriwge qaytıw",
+      "successTitle": "Emailińizdi tekseriń",
+      "successSubtitle": "Paroldi tiklew siltemesin mına adreske jiberdik:",
+      "successMessage": "Paroldi tiklew ushın emaildegi siltemege ótiń. Eger email kórmeseńiz, spam papkasın tekseriń.",
+      "noEmail": "Email kelmedime?",
+      "tryAgain": "Qayta urınıp kóriń",
+      "error": "Tiklew xatın jiberiw ámelge aspadı. Qayta urınıp kóriń."
+    }
+  },
+  "settings": {
+    "title": "Sazlawlar",
+    "botConfig": {
+      "title": "AI Bot konfiguraciyası",
+      "description": "AI járdemshińizge anıq kórsetpeler beriń. Onıń rolın, sóylew tonın hám paydalanıwshılardan toplaytuǵın anıq maǵlıwmatlardı belgileń.",
+      "promptLabel": "Bot kórsetpesi (Prompt)",
+      "promptPlaceholder": "Mısalı: Siz oqıw orayı ushın paydalı menejersiz. Doslarcha hám ádepli bolıń. Kurslarımız haqqında maǵlıwmat beriń. Oqıwshını jazıw ushın olardıń atı-jónin hám telefon nomerin so'rań.",
+      "success": "Konfiguraciya tabıslı saqlandı!",
+      "save": "Konfiguraciyanı saqlaw",
+      "saving": "Saqlanbaqta..."
+    },
+    "integrations": {
+      "title": "Integraciyalar",
+      "googleSheets": {
+        "name": "Google Sheets",
+        "description": "Barlıq toplanǵan paydalanıwshı maǵlıwmatların real waqıtta Google Sheet-ke avtomat sinhronlaw."
+      },
+      "connected": "Jalǵandı",
+      "connect": "Jalǵaw",
+      "connecting": "Jalǵanbaqta...",
+      "comingSoon": "Tez arada kóbirek integraciyalar! Biz Zapier, Make hám basqa platformalardı qosıw ústinde islep atırmız."
+    }
+  },
+  "accountSettings": {
+    "title": "Esap sazlawları",
+    "profile": {
+      "title": "Profil",
+      "fullName": "To'lıq atı-jónińiz",
+      "fullNamePlaceholder": "To'lıq atı-jónińizdi kirgiziń",
+      "email": "Email Adres",
+      "emailPlaceholder": "sizdin@email.com",
+      "emailNote": "Email ózgertilmeydi. Jańalaw ushın qollap-quwatlaw xızmetine xabarlasıń.",
+      "success": "Profil tabıslı jańalandı!",
+      "update": "Profildi jańalaw",
+      "updating": "Jańalanbaqta..."
+    },
+    "security": {
+      "title": "Paroldi ózgertiw",
+      "currentPassword": "Ámeldegi parol",
+      "currentPasswordPlaceholder": "Házirgi paroldi kirgiziń",
+      "newPassword": "Jańa parol",
+      "newPasswordPlaceholder": "Jańa paroldi kirgiziń",
+      "confirmPassword": "Jańa paroldi tastıyıqlaw",
+      "confirmPasswordPlaceholder": "Jańa paroldi tastıyıqlań",
+      "success": "Parol tabıslı ózgertildi!",
+      "change": "Paroldi ózgertiw",
+      "changing": "Ózgertilmekte...",
+      "currentRequired": "Ámeldegi parol kerek",
+      "newRequired": "Jańa parol kerek",
+      "newLength": "Jańa parol keminde 6 belgiden turıwı kerek",
+      "matchError": "Parollar sáykes kelmedi",
+      "sameError": "Jańa parol ámeldegi paroldan basqasha bolıwı kerek"
+    },
+    "dangerZone": {
+      "title": "Qáwipli zona",
+      "description": "Bul háreket turaqlı hám onı qaytarıw múmkin emes. Barlıq maǵlıwmatlarıńız, jalǵanǵan esaplar hám bot sazlawları turaqlı túrde óshiriledi.",
+      "confirmTitle": "Siz anıq isenimińiz kámilme?",
+      "confirmMessage": "Bul sizdiń esabıńızdı hám barlıq maǵlıwmatlardı turaqlı túrde óshireedi. Bul háreketti qaytarıp bolmaydı.",
+      "typeEmail": "Tastıyıqlaw ushın emailińizdi jazıń:",
+      "cancel": "Biykarlaw",
+      "delete": "Esaptı óshiriw",
+      "deleting": "Óshirilmekte...",
+      "successAlert": "Esap tabıslı óshirildi. Siz bas betke jiberilesiz."
+    }
+  },
+  "setup": {
+    "title": "Dialogic-ke xosh keldińiz!",
+    "subtitle": "Klientlerińizge járdem beriw ushın AI járdemshini tayarlayıq.",
+    "step1": {
+      "title": "Esabıńızdı jalǵań",
+      "description": "Instagram yamasa Telegram esabıńızdı jalǵap, xabarlarǵa avtomat juwap beriwdi baslań."
+    },
+    "step2": {
+      "title": "Botıńızdı sazlań",
+      "description": "AI járdemshińizge ózin qalay tutıw kerekligin hám qanday maǵlıwmat toplaw kerekligin aytıń."
+    },
+    "step3": {
+      "title": "Tekserip kóriń",
+      "description": "Jumısın kórıw ushın botıńızǵa xabar jiberip kóriń."
+    },
+    "connectButton": "Esaptı jalǵaw",
+    "configureButton": "Bottı sazlaw",
+    "dashboardButton": "Panelge ótiw"
+  },
+  "ctaCard": {
+    "title": "Botıńız úyreniwge tayar!",
+    "description": "Bot sazlawların ornatıń hám DM juwapların avtomatlastırıwdı baslań",
+    "button": "Bot sazlawlarına ótiw"
+  },
+  "analytics": {
+    "dataFor": "Maǵlıwmatlar:",
+    "autoRefresh": "Hár 30 sekundta jańalanadı",
+    "error": "Qátelik",
+    "loading": "Analitika júklenbekte...",
+    "conversationsToday": "Búgingi sáwbetler",
+    "conversationsTodayDesc": "Búgin baslanǵan jámi sáwbetler",
+    "leadsToday": "Búgingi lidlar",
+    "leadsTodayDesc": "Búgin jaratılǵan jańa lidlar",
+    "activeConversations": "Aktiv sáwbetler",
+    "activeConversationsDesc": "Házirgi waqıtta dawam etip atırǵan sáwbetler",
+    "conversionRate": "Konversiya dárejesi",
+    "conversionRateDesc": "Sáwbetlerdiń lidlarǵa qatnası",
+    "avgLeadScore": "Ortasha lid balı",
+    "avgLeadScoreDesc": "Búgingi lidlardıń sapa dárejesi",
+    "messagesToday": "Búgingi xabarlar",
+    "messagesTodayDesc": "Jámi almasılǵan xabarlar",
+    "todaysSummary": "Búgingi juwmaq",
+    "conversations": "Sáwbetler",
+    "leads": "Lidlar",
+    "conversion": "Konversiya",
+    "leadQuality": "Lid sapası",
+    "messageVolume": "Xabarlar kólemi (Sońǵı 7 kún)",
+    "courseDistribution": "Kurslar bólistiriliwi"
+  }
+}

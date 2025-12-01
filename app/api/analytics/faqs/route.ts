@@ -13,6 +13,7 @@ export async function GET(request: Request) {
                 cache: 'no-store',
             }
         )
+        console.log(response)
 
         if (!response.ok) {
             return NextResponse.json(

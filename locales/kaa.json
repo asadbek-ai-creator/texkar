@@ -20,20 +20,24 @@
   },
   "navbar": {
     "features": "Múmkinshilikler",
-    "pricing": "Bahalar",
-    "howItWorks": "Bul qalay isleydi"
+    "conversionRate": "Konversiya kórsetkishi",
+    "yourAccounts": "Sizdiń esaplarıńız",
+    "addAccount": "Esap qosıw",
+    "messages": "xabarlar",
+    "activeStatus": "Aktiv"
   },
   "sidebar": {
     "dashboard": "Basqarıw paneli",
-    "leads": "Potencial klientler",
-    "settings": "Sazlawlar",
-    "account": "Esap"
+    "leads": "Lidlar",
+    "settings": "Sazlamalar",
+    "account": "Akkaunt",
+    "insights": "Insaytlar"
   },
   "dashboard": {
     "title": "Basqarıw paneli",
     "totalMessages": "Jámi xabarlar",
-    "totalLeads": "Jámi klientler",
-    "conversionRate": "Konversiya kórsetkishi",
+    "totalLeads": "Jámi lidlar",
+    "conversionRate": "Konversiya",
     "yourAccounts": "Sizdiń esaplarıńız",
     "addAccount": "Esap qosıw",
     "messages": "xabarlar",
@@ -50,18 +54,29 @@
     "courseInterest": "Kursqa qızıǵıwshılıǵı",
     "phoneNumber": "Telefon nomeri",
     "conversationTime": "Sáwbet waqtı",
-    "contactedOn": "Baylanısqa shıqqan waqtı",
-    "newLeads": "Jańa klientler",
-    "pendingContact": "Baylanıs kútilmekte",
+    "contactedOn": "Baylanısqa shıǵıldı",
+    "newLeads": "Jańa lidlar",
+    "pendingContact": "Kutilmoqda",
     "needManager": "Menejer kerek",
-    "totalLeads": "Jámi klientler",
-    "noLeadsYet": "Házirshe klientler joq",
-    "noLeadsMessage": "Telegram botıńızdan kelgen sorawlar usı jerde kórinedi"
+    "totalLeads": "Jámi lidlar",
+    "noLeadsYet": "Házirshe lidlar joq",
+    "noLeadsMessage": "Telegram botıńızdan lidlar usı jerde payda boladı",
+    "enrolled": "Jazılǵan",
+    "churned": "Bas tartqan",
+    "viewDetails": "Tolıq kóriw",
+    "loading": "Lidlar júklenbekte...",
+    "table": {
+      "name": "Atı",
+      "phone": "Telefon",
+      "course": "Kurs",
+      "status": "Status",
+      "actions": "Házirgi jaǵday"
+    }
   },
   "language": {
-    "english": "Inglis tili",
-    "russian": "Rus tili",
-    "uzbek": "Ózbek tili",
+    "english": "Inglis",
+    "russian": "Rus",
+    "uzbek": "Ózbek",
     "kaa": "Qaraqalpaqsha",
     "selectLanguage": "Tildi tańlań"
   },
@@ -217,6 +232,7 @@
       "description": "AI járdemshińizge anıq kórsetpeler beriń. Onıń rolın, sóylew tonın hám paydalanıwshılardan toplaytuǵın anıq maǵlıwmatlardı belgileń.",
       "promptLabel": "Bot kórsetpesi (Prompt)",
       "promptPlaceholder": "Mısalı: Siz oqıw orayı ushın paydalı menejersiz. Doslarcha hám ádepli bolıń. Kurslarımız haqqında maǵlıwmat beriń. Oqıwshını jazıw ushın olardıń atı-jónin hám telefon nomerin so'rań.",
+      "defaultPrompt": "Siz oqıw orayı ushın paydalı menejersiz. Doslarcha hám ádepli bolıń. Kurslarımız haqqında maǵlıwmat beriń. Oqıwshını jazıw ushın olardıń atı-jónin hám telefon nomerin so'rań.",
       "success": "Konfiguraciya tabıslı saqlandı!",
       "save": "Konfiguraciyanı saqlaw",
       "saving": "Saqlanbaqta..."
@@ -296,7 +312,7 @@
   },
   "ctaCard": {
     "title": "Botıńız úyreniwge tayar!",
-    "description": "Bot sazlawların ornatıń hám DM juwapların avtomatlastırıwdı baslań",
+    "description": "Bot sazlawların ornatıń hám DM juwapların avtomatlashtırıwdı baslań",
     "button": "Bot sazlawlarına ótiw"
   },
   "analytics": {
@@ -323,5 +339,41 @@
     "leadQuality": "Lid sapası",
     "messageVolume": "Xabarlar kólemi (Sońǵı 7 kún)",
     "courseDistribution": "Kurslar bólistiriliwi"
+  },
+  "insights": {
+    "title": "Insaytlar hám Analitika",
+    "subtitle": "Sáwbetlesiwlerińizden ataqlı kurslar hám kóp soralatuǵın sorawlar",
+    "popularCourses": {
+      "title": "Eń ataqlı kurslar",
+      "subtitle": "Qızıǵıwshılıq boyınsha top kurslar (sońǵı 30 kún)",
+      "questions": "sorawlar",
+      "leads": "lidlar",
+      "enrolled": "jazılǵan",
+      "conversionRate": "Konversiya",
+      "score": "Ball",
+      "noData": "Házirshe kurs maǵlıwmatları joq"
+    },
+    "faq": {
+      "title": "Kóp soralatuǵın sorawlar",
+      "subtitle": "Paydalanıwshılardan eń kóp beriletuǵın sorawlar",
+      "lastAsked": "Aqırǵı"
+    },
+    "stats": {
+      "totalCourses": "Jámi kurslar",
+      "totalFaqs": "Jámi sorawlar",
+      "totalLeads": "Jámi lidlar",
+      "totalEnrolled": "Jámi jazılǵanlar"
+    },
+    "categories": {
+      "course_info": "Kurs haqqında",
+      "pricing": "Bahalar",
+      "enrollment": "Jazılıw",
+      "schedule": "Keste",
+      "technical": "Texnikalıq",
+      "general": "Ulıwma"
+    },
+    "loading": "Insaytlar júklenbekte...",
+    "error": "Insaytlardı júklep bolmadı. Ótinish, qayta urınıp kóriń.",
+    "retry": "Qayta urınıw"
   }
 }

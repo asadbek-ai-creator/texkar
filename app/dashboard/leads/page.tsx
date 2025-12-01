@@ -46,9 +46,9 @@ export default function LeadsPage() {
         }
 
         const labels = {
-            new_lead: 'New Lead',
-            enrolled: 'Enrolled',
-            churned: 'Churned',
+            new_lead: t('leads.newLead'),
+            enrolled: t('leads.enrolled'),
+            churned: t('leads.churned'),
         }
 
         return (
@@ -96,19 +96,19 @@ export default function LeadsPage() {
             {/* Stats Bar */}
             <div className="grid grid-cols-3 gap-4">
                 <div className="rounded-lg border border-blue-200 bg-blue-50 p-4">
-                    <p className="text-sm font-medium text-blue-600">New Leads</p>
+                    <p className="text-sm font-medium text-blue-600">{t('leads.newLeads')}</p>
                     <p className="text-2xl font-bold text-blue-700">
                         {leads.filter((l) => l.status === 'new_lead').length}
                     </p>
                 </div>
                 <div className="rounded-lg border border-green-200 bg-green-50 p-4">
-                    <p className="text-sm font-medium text-green-600">Enrolled</p>
+                    <p className="text-sm font-medium text-green-600">{t('leads.enrolled')}</p>
                     <p className="text-2xl font-bold text-green-700">
                         {leads.filter((l) => l.status === 'enrolled').length}
                     </p>
                 </div>
                 <div className="rounded-lg border border-gray-200 bg-gray-50 p-4">
-                    <p className="text-sm font-medium text-gray-600">Churned</p>
+                    <p className="text-sm font-medium text-gray-600">{t('leads.churned')}</p>
                     <p className="text-2xl font-bold text-gray-700">
                         {leads.filter((l) => l.status === 'churned').length}
                     </p>
@@ -117,26 +117,26 @@ export default function LeadsPage() {
 
             {/* Leads Table */}
             {loading ? (
-                <div className="text-center text-slate-500">Loading leads...</div>
+                <div className="text-center text-slate-500">{t('leads.loading')}</div>
             ) : leads.length > 0 ? (
                 <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
                     <table className="w-full">
                         <thead className="bg-slate-50 border-b border-slate-200">
                             <tr>
                                 <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
-                                    Name
+                                    {t('leads.table.name')}
                                 </th>
                                 <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
-                                    Phone
+                                    {t('leads.table.phone')}
                                 </th>
                                 <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
-                                    Course
+                                    {t('leads.table.course')}
                                 </th>
                                 <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
-                                    Status
+                                    {t('leads.table.status')}
                                 </th>
                                 <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-slate-600">
-                                    Actions
+                                    {t('leads.table.actions')}
                                 </th>
                             </tr>
                         </thead>
@@ -159,7 +159,7 @@ export default function LeadsPage() {
                                             className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-700"
                                         >
                                             <Eye className="h-4 w-4" />
-                                            View Details
+                                            {t('leads.viewDetails')}
                                         </button>
                                     </td>
                                 </tr>

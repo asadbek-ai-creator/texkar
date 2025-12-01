@@ -8,13 +8,18 @@ import {
   LogOut,
   Users,
   TrendingUp,
+  X,
 } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import LanguageSwitcher from './LanguageSwitcher'
 import { useLanguage } from '@/contexts/LanguageContext'
 
-export default function Sidebar() {
+interface SidebarProps {
+  onCloseMobile?: () => void
+}
+
+export default function Sidebar({ onCloseMobile }: SidebarProps) {
   const pathname = usePathname()
   const router = useRouter()
   const [isLoggingOut, setIsLoggingOut] = useState(false)
@@ -53,14 +58,26 @@ export default function Sidebar() {
     <div className="flex h-screen flex-col bg-slate-900 text-slate-200">
       {/* Header */}
       <div className="border-b border-slate-700 px-6 py-6">
-        <Link href="/" className="flex items-center gap-3">
-          <img
-            src="/logo.png"
-            alt="Dialogic"
-            className="h-8 w-8 rounded-lg bg-blue-600 p-1"
-          />
-          <span className="text-lg font-bold text-white">DIALOGIC</span>
-        </Link>
+        <div className="flex items-center justify-between">
+          <Link href="/" className="flex items-center gap-3">
+            <img
+              src="/logo.png"
+              alt="Dialogic"
+              className="h-8 w-8 rounded-lg bg-blue-600 p-1"
+            />
+            <span className="text-lg font-bold text-white">DIALOGIC</span>
+          </Link>
+          {/* Close button for mobile */}
+          {onCloseMobile && (
+            <button
+              onClick={onCloseMobile}
+              className="rounded-lg p-2 text-slate-400 hover:bg-slate-800 hover:text-slate-200 lg:hidden transition-colors"
+              aria-label="Close menu"
+            >
+              <X className="h-5 w-5" />
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Navigation Links */}
@@ -68,6 +85,7 @@ export default function Sidebar() {
         <Link
           href="/dashboard"
           className={getLinkClassName('/dashboard')}
+          onClick={onCloseMobile}
         >
           <LayoutDashboard className="h-5 w-5" />
           <span className="font-medium">{t('sidebar.dashboard')}</span>
@@ -76,6 +94,7 @@ export default function Sidebar() {
         <Link
           href="/dashboard/leads"
           className={getLinkClassName('/dashboard/leads')}
+          onClick={onCloseMobile}
         >
           <Users className="h-5 w-5" />
           <span className="font-medium">{t('sidebar.leads')}</span>
@@ -84,14 +103,16 @@ export default function Sidebar() {
         <Link
           href="/dashboard/insights"
           className={getLinkClassName('/dashboard/insights')}
+          onClick={onCloseMobile}
         >
           <TrendingUp className="h-5 w-5" />
-          <span className="font-medium">Insights</span>
+          <span className="font-medium">{t('sidebar.insights')}</span>
         </Link>
 
         <Link
           href="/dashboard/settings"
           className={getLinkClassName('/dashboard/settings')}
+          onClick={onCloseMobile}
         >
           <Settings className="h-5 w-5" />
           <span className="font-medium">{t('sidebar.settings')}</span>
@@ -100,6 +121,7 @@ export default function Sidebar() {
         <Link
           href="/dashboard/account"
           className={getLinkClassName('/dashboard/account')}
+          onClick={onCloseMobile}
         >
           <UserCircle className="h-5 w-5" />
           <span className="font-medium">{t('sidebar.account')}</span>

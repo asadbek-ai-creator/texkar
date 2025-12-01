@@ -27,7 +27,8 @@
     "dashboard": "Dashboard",
     "leads": "Leads",
     "settings": "Settings",
-    "account": "Account"
+    "account": "Account",
+    "insights": "Insights"
   },
   "dashboard": {
     "title": "Dashboard",
@@ -56,7 +57,18 @@
     "needManager": "Need Manager",
     "totalLeads": "Total Leads",
     "noLeadsYet": "No leads yet",
-    "noLeadsMessage": "Leads from your Telegram bot will appear here"
+    "noLeadsMessage": "Leads from your Telegram bot will appear here",
+    "enrolled": "Enrolled",
+    "churned": "Churned",
+    "viewDetails": "View Details",
+    "loading": "Loading leads...",
+    "table": {
+      "name": "Name",
+      "phone": "Phone",
+      "course": "Course",
+      "status": "Status",
+      "actions": "Actions"
+    }
   },
   "language": {
     "english": "English",
@@ -217,6 +229,7 @@
       "description": "Provide clear instructions for your AI assistant. Define its role, tone of voice, and the specific information it needs to collect from users.",
       "promptLabel": "Bot Prompt",
       "promptPlaceholder": "Example: You are a helpful manager for an education center. Be friendly and polite. Provide information about our courses. To sign up a student, ask for their full name and phone number.",
+      "defaultPrompt": "You are a helpful manager for an education center. Be friendly and polite. Provide information about our courses. To sign up a student, ask for their full name and phone number.",
       "success": "Configuration saved successfully!",
       "save": "Save Configuration",
       "saving": "Saving..."
@@ -323,5 +336,41 @@
     "leadQuality": "Lead Quality",
     "messageVolume": "Message Volume (Last 7 Days)",
     "courseDistribution": "Course Distribution"
+  },
+  "insights": {
+    "title": "Insights & Analytics",
+    "subtitle": "Popular courses and frequently asked questions from your conversations",
+    "popularCourses": {
+      "title": "Most Popular Courses",
+      "subtitle": "Top courses by interest (last 30 days)",
+      "questions": "questions",
+      "leads": "leads",
+      "enrolled": "enrolled",
+      "conversionRate": "Conversion Rate",
+      "score": "Score",
+      "noData": "No course data available yet"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Most common questions from users",
+      "lastAsked": "Last"
+    },
+    "stats": {
+      "totalCourses": "Total Courses",
+      "totalFaqs": "Total FAQs",
+      "totalLeads": "Total Leads",
+      "totalEnrolled": "Total Enrolled"
+    },
+    "categories": {
+      "course_info": "Course Info",
+      "pricing": "Pricing",
+      "enrollment": "Enrollment",
+      "schedule": "Schedule",
+      "technical": "Technical",
+      "general": "General"
+    },
+    "loading": "Loading insights...",
+    "error": "Failed to load insights. Please try again.",
+    "retry": "Retry"
   }
 }

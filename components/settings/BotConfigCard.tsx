@@ -5,9 +5,7 @@ import { useLanguage } from '@/contexts/LanguageContext'
 
 export default function BotConfigCard() {
   const { t } = useLanguage()
-  const [prompt, setPrompt] = useState(
-    'You are a helpful manager for an education center. Be friendly and polite. Provide information about our courses. To sign up a student, ask for their full name and phone number.'
-  )
+  const [prompt, setPrompt] = useState(t('settings.botConfig.defaultPrompt'))
   const [isSaving, setIsSaving] = useState(false)
   const [savedMessage, setSavedMessage] = useState(false)
 

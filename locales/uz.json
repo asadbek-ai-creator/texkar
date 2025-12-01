@@ -57,7 +57,18 @@
     "needManager": "Menejer kerak",
     "totalLeads": "Jami lidlar",
     "noLeadsYet": "Hali lidlar yo'q",
-    "noLeadsMessage": "Telegram botingizdan lidlar bu yerda ko'rinadi"
+    "noLeadsMessage": "Telegram botingizdan lidlar bu yerda ko'rinadi",
+    "enrolled": "Yozilgan",
+    "churned": "Rad etgan",
+    "viewDetails": "Batafsil",
+    "loading": "Lidlar yuklanmoqda...",
+    "table": {
+      "name": "Ism",
+      "phone": "Telefon",
+      "course": "Kurs",
+      "status": "Holat",
+      "actions": "Amallar"
+    }
   },
   "language": {
     "english": "Inglizcha",
@@ -218,6 +229,7 @@
       "description": "AI yordamchingiz uchun aniq ko'rsatmalar bering. Uning rolini, ohangini va foydalanuvchilardan yig'ishi kerak bo'lgan aniq ma'lumotlarni belgilang.",
       "promptLabel": "Bot ko'rsatmasi",
       "promptPlaceholder": "Misol: Siz ta'lim markazining foydali menejerisiz. Do'stona va xushmuomala bo'ling. Kurslarimiz haqida ma'lumot bering. Talabani ro'yxatdan o'tkazish uchun uning to'liq ismi va telefon raqamini so'rang.",
+      "defaultPrompt": "Siz o'quv markazining foydali menejerisiz. Do'stona va xushmuomala bo'ling. Kurslarimiz haqida ma'lumot bering. Talabani ro'yxatdan o'tkazish uchun uning to'liq ismi va telefon raqamini so'rang.",
       "success": "Konfiguratsiya muvaffaqiyatli saqlandi!",
       "save": "Konfiguratsiyani saqlash",
       "saving": "Saqlanmoqda..."
@@ -324,5 +336,41 @@
     "leadQuality": "Lid sifati",
     "messageVolume": "Xabarlar hajmi (So'nggi 7 kun)",
     "courseDistribution": "Kurslar taqsimoti"
+  },
+  "insights": {
+    "title": "Tahlillar va Statistika",
+    "subtitle": "Suhbatlaringizdan mashhur kurslar va tez-tez so'raladigan savollar",
+    "popularCourses": {
+      "title": "Eng mashhur kurslar",
+      "subtitle": "Qiziqish bo'yicha eng yaxshi kurslar (so'nggi 30 kun)",
+      "questions": "savollar",
+      "leads": "lidlar",
+      "enrolled": "yozilgan",
+      "conversionRate": "Konversiya",
+      "score": "Ball",
+      "noData": "Hozircha kurs ma'lumotlari yo'q"
+    },
+    "faq": {
+      "title": "Tez-tez so'raladigan savollar",
+      "subtitle": "Foydalanuvchilardan eng ko'p beriladigan savollar",
+      "lastAsked": "Oxirgi"
+    },
+    "stats": {
+      "totalCourses": "Jami kurslar",
+      "totalFaqs": "Jami savollar",
+      "totalLeads": "Jami lidlar",
+      "totalEnrolled": "Jami yozilganlar"
+    },
+    "categories": {
+      "course_info": "Kurs haqida",
+      "pricing": "Narxlar",
+      "enrollment": "Ro'yxatdan o'tish",
+      "schedule": "Jadval",
+      "technical": "Texnik",
+      "general": "Umumiy"
+    },
+    "loading": "Tahlillar yuklanmoqda...",
+    "error": "Tahlillarni yuklab bo'lmadi. Iltimos, qayta urinib ko'ring.",
+    "retry": "Qayta urinish"
   }
 }
